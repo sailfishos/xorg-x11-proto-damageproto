@@ -1,0 +1,16 @@
+Name: xorg-x11-proto-damageproto
+Summary: X.Org X11 Protocol damageproto
+Description: X.Org X11 Protocol damageproto head files.
+Version: 1.2.1
+Release: 0
+Group: Development/System
+License: MIT
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/proto/damageproto-%{version}.tar.bz2
+
+Provides: 
+    - damageproto
+Configure: configure
+ConfigOptions:
+    - --libdir=%{_datadir}
